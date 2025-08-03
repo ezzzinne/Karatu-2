@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 2</title>
+</head>
+<body>
+    <section align="center">
+        <h1>Welcome to My Media Showcase</h1>
+        <p>Here, I use all available media elements in HTML to describe myself.</p>
+        <br>
+
+        <section>
+            <h2>1. Picture Element - Responsive</h2>
+            <p>This are pictorial representations of what I look like. (Resize your browser to view different images)</p>
+            <picture> 
+                <source media="(min-width: 1024px)" srcset="assets/Pic1.jpg">
+                <source media="(min-width: 600px)" srcset="assets/heroImage.jpg">
+                <img src="assets/My picture.jpeg" alt="A responsive image of me" width="300">
+            </picture>
+        </section>
+
+        <section>
+            <h2>2. Image Element</h2>
+            <p>It's me again!</p>
+            <img src="assets/Pic2.jpg" alt="My photo" width="300">
+        </section>
+    
+        <section>
+            <h2>3. Audio Element</h2>
+            <p>This is an audio for indicating that something is correct because I'm a correct babe.</p>
+            <audio controls>
+                <source src="assets/correct.mp3" type="audio/mp3">
+                Your browser does not support the audio element.
+            </audio>
+        </section>
+
+        <section>
+            <h2>4. Video Element</h2>
+            <p>This is a video of me!</p>
+            <video width="400" height="300" controls>
+                <source src="assets/Video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </section>
+
+        <section>
+            <h2>5. Embed Element</h2>
+            <p>This is my CV guys. Please hire me. LOL! (I'm not kidding 😭)</p>
+            <embed src="assets/EZINNE NWANI CV.pdf" type="application/pdf" width="500" height="400">
+        </section>
+
+        <section>
+            <h2>7. Iframe Element (YouTube Video)</h2>
+            <p>These are my favorite people to watch/listen to. I love them so much!</p>
+            <iframe width="420" height="315" src="https://www.youtube.com/embed/Oqe0rk7BmuE?si=rrqyNmYHmES41iVf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+    </section> 
+</body>
+</html>
